@@ -8,7 +8,7 @@ import schedule
 import random
 
 # ======================== НАСТРОЙКИ =========================
-TOKEN = os.environ.get('TOKEN')   # ТВОЙ ТОКЕН
+TOKEN = "8364808387:AAEBTmxW9QN6zUfQY8vGqSe4Ynw680Uho3M"
 bot = telebot.TeleBot(TOKEN)
 
 # ======================== МЕНЮ КОМАНД ========================
@@ -417,3 +417,4 @@ if __name__ == "__main__":
     t = threading.Thread(target=run_schedule, daemon=True)
     t.start()
     bot.infinity_polling()
+
