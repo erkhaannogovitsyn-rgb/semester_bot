@@ -1,3 +1,0 @@
-openai
-pyTelegramBotAPI
-python-dotenv
